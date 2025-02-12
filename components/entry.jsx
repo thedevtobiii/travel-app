@@ -14,8 +14,8 @@ function Entry(props){
     <span>{props.country}</span> 
     <a href={props.googleMapsLink}>View on Google Maps</a>
       <h1>{props.title}</h1>
-      <h4>Dates: 12 Jan, 2021 - 24 Jan, 2021</h4>
-      <p>Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+      <h4>Dates: {props.dates}</h4>
+      <p>{props.text}</p>
     </div>
 
    </article>
