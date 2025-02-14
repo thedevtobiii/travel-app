@@ -9,7 +9,7 @@ function Entry(props){
      
      
     </div>
-    <div className="text-container">
+    <div className="text-container text-box">
     <img className='marker' src={marker} alt="marker-icon" />
     <span>{props.country}</span> 
     <a href={props.googleMapsLink}>View on Google Maps</a>
@@ -21,4 +21,4 @@ function Entry(props){
    </article>
   )
 }
-export default Entry
+export default Entry  
